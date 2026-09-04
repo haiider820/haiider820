@@ -1,0 +1,33 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07131F"/>
+      <stop offset="0.55" stop-color="#0B2638"/>
+      <stop offset="1" stop-color="#123E52"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="120" y1="120" x2="1030" y2="260" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#55D6BE"/>
+      <stop offset="1" stop-color="#47A6FF"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#A9E8FF" stroke-opacity="0.08"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="360" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="18" fill="url(#grid)"/>
+  <circle cx="1080" cy="58" r="180" fill="#55D6BE" fill-opacity="0.08"/>
+  <circle cx="1125" cy="310" r="220" fill="#47A6FF" fill-opacity="0.08"/>
+  <path d="M0 303C216 254 323 332 532 282C742 231 867 267 1200 190" stroke="url(#accent)" stroke-opacity="0.55" stroke-width="2"/>
+  <path d="M0 320C216 271 323 349 532 299C742 248 867 284 1200 207" stroke="#55D6BE" stroke-opacity="0.14" stroke-width="1"/>
+  <text x="72" y="70" fill="#A9E8FF" font-family="monospace" font-size="15" letter-spacing="5">PROFILE // ISSUE 01</text>
+  <text x="72" y="166" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="800" letter-spacing="3">HAIIDER</text>
+  <text x="77" y="207" fill="#55D6BE" font-family="monospace" font-size="20" letter-spacing="4">BUILDING • LEARNING • SHIPPING</text>
+  <rect x="72" y="240" width="620" height="48" rx="4" fill="#F4F0E6" filter="url(#shadow)"/>
+  <text x="96" y="271" fill="#102431" font-family="monospace" font-size="16" font-weight="700" letter-spacing="2">DEVELOPER • PROBLEM SOLVER • EXPLORER</text>
+  <text x="1050" y="320" fill="#A9E8FF" font-family="monospace" font-size="14" text-anchor="end" letter-spacing="2">EST. 2025</text>
+  <rect x="1035" y="28" width="92" height="92" rx="46" stroke="#55D6BE" stroke-opacity="0.55"/>
+  <path d="M1064 74L1078 88L1102 58" stroke="#55D6BE" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
