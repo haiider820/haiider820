@@ -120,6 +120,6 @@ You could also **FOLLOW** me here on GitHub! 🫡
   <br/><br/>
 
   <!-- Animated typewriter footer -->
-  <img src="./banner-footer.svg" alt="Thanks for visiting" width="550" />
+  <img src="./Bannerfooter.svg" alt="Thanks for visiting" width="550" />
 
 </div>
